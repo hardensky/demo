@@ -1,0 +1,25 @@
+/* top部分 */
+#top{width:100%;height:65px;background-color:#2c2c2c;opacity:0.7;position:fixed;z-index:999;}
+#top ul{width:800px;margin:0 auto;padding-top:10px;}
+#top li{float:left;line-height:45px;margin-right:29px;margin-left:29px;font-size:17px;font-weight:bolder;width:100px;height:45px;border-radius:8px;text-align:center;color:#9ebfd8;cursor:pointer;}
+.top_cur{border:2px solid #FFFFFF;color:#FFFFFF !important;}
+
+
+/* index部分 */
+#index{position:fixed;z-index:999;top:400px;left:1850px;}
+#index li{width:10px;height:10px;border-radius:50%;background-color:black;margin:10px;cursor:pointer;}
+.index_cur{width:10px !important;height:30px !important;background-color:white !important;border-radius:9px !important;}
+
+
+/* content全局布置 */
+#content{width:100%;height:100%;position:absolute;overflow:hidden;}
+#content>div{width:100%;height:1500px;position:relative;top:0px;}
+
+
+/* content_1 全局布置 */
+.pic{width:150px;height:200px;border:5px solid #FFFFFF;position:relative;top:100px;border-radius:50px;overflow:hidden;display:none;margin:0 auto;}
+.pic li{position:absolute;cursor:pointer;}
+.introduce{width:1000px;margin:0 auto;position:relative;top:-220px;color:#FFFFFF;}
+
+
+

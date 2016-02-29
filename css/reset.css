@@ -1,0 +1,18 @@
+/* CSS Reset */
+*,html,body,div,span,applet,object,iframe,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,img,q,fieldset,form,label,legend,input,select,textarea,table,caption,tbody,tfoot,thead,tr,th,td,var,font,ins,kbd,s,sampsmall,strike,strong,tt,b,u,i,center { margin: 0; padding: 0; border: 0; outline: none; font-size: 100%; font-style: inherit; font-weight: inherit; font-family: inherit; vertical-align: baseline; background: transparent;}
+body { font-family:"microsoft yahei",tahoma,Arial,"hiragino sans gb","microsoft yahei",sans-serif;font-size:12px; }
+table { border-collapse:collapse; border-spacing:0;}
+img{ border:none;vertical-align:top; }
+ul,ol,li { list-style:none; }
+caption,th,td{ text-align:left; }
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal; }
+a { outline: none; text-decoration:none;}
+strong { font-weight: bold }
+input{ outline:none; }
+
+
+/* public */
+.clear{ zoom:1; }
+.clear:after{ content:"";display:block;clear:both; }
+.fl { float:left; }
+.fr { float:right; }
