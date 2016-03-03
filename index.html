@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style.css">
 <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
-<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
 <script>
 	
@@ -23,8 +23,8 @@
 			<li class="top_cur">首页</li>
 			<li>关于我</li>
 			<li>专业技能</li>
-			<li>我的经历</li>
 			<li>我的作品</li>
+			<li>请联系我</li>
 		</ul>
 	</div>
 	<div id="index">
@@ -40,20 +40,139 @@
  		<div class="content_1" style="background-color:rgb(60, 142, 213);">
  			<div class="pic">
 				<ul>
-					<li style="z-index:999;"><img src="img/jianli1.png"></li>
-					<li style="left:-30px;top:-10px;"><img src="img/jianli2.png"></li>
+					<li style="z-index:1000;"><img src="img/jianli1.png"></li>
+					<li style="left:-30px;top:-10px;z-index:999;"><img src="img/jianli2.png"></li>
 				</ul>	
  			</div>
- 			<div class="introduce" style="margin-top:350px;">
+ 			<div class="name" style="margin-top:350px;">
  				<h2 style="font-size:20px;text-align:center;font-family:times;">MY&nbsp&nbsp&nbsp&nbspNAME&nbsp&nbsp&nbsp&nbspIS</h2>
- 				<h1 style="font-size:55px;text-align:center;color:#BDCA9A;">林&nbsp&nbsp森</h1>
  				<h2 style="font-size:25px;text-align:center;font-family:times;">Lin&nbsp&nbsp&nbsp&nbsp&nbspSen</h2>
+ 				<h1 style="font-size:55px;text-align:center;color:#BDCA9A;display:none;">林&nbsp&nbsp森</h1>
  			</div>
+ 			<div class="introduce">
+ 				<div class="introduce_line"></div>
+ 				<h2>在充满挑战与创新，满是冒险家的互联网时代</h2>
+ 				<h2>在用户已不止满足于使用，对体验、视觉、感受越来越挑剔的今天</h2>
+ 				<h2>我只愿搭一座连接用户与互联网的桥梁</h2>
+ 				<h2>成为一名优秀的前端工程师</h2>
+ 			</div>
+ 			<ul class="bubbles">
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 			</ul>
  		</div>
- 		<div class="content_2" style="background-color:rgb(73, 170, 199);"></div>
- 		<div class="content_3" style="background-color:rgb(104, 195, 159);"></div>
- 		<div class="content_4" style="background-color:rgb(4, 61, 93);"></div>
- 		<div class="content_5" style="background-color:rgb(60, 142, 213);"></div>
+ 		<div class="content_2" style="background-color:rgb(73, 170, 199);min-width:2500px;">
+ 			<div class="me">
+ 				<div class="me_1"><h1>关于我</h1></div>
+ 				<div class="me_2" style="top:10%;left:28%;">
+ 					<h2>2012年7月毕业于大连理工大学，并进入国机集团从事建筑设计工作，工作期间表现优异，工作得到一致认可</h2>
+ 				</div>
+ 				<div class="me_2" style="top:10%;left:50%;">
+ 					<h2>2014年6月由于工作需要开始接触前端方向，并参与了<span>公司内部网站建设</span>，及<span>多项成果作品展示</span>的前端设计工作</h2>
+ 				</div>
+ 				<div class="me_2" style="top:40%;left:55%;">
+ 					<h2>从接触前端伊始便对前端产生浓厚的兴趣，除去工作中涉及到的知识之外，同时不断学习前端所有相关知识</h2>
+ 				</div>
+ 				<div class="me_2" style="top:70%;left:50%;height:110px;">
+ 					<h2>已完成万维网联盟的学习，可以熟练掌握<span>w3c</span>规范标准，并完成<span>网易云课堂</span>、<span>慕课网</span>、<span>妙味课堂</span>、<span>百度传课网</span>等相应的前端知识学习</h2>
+ 				</div>
+ 				<div class="me_2" style="top:75%;left:30%;width:250px;height:125px;">
+ 					<h2>通过学习以及在工作中的实践，已可以熟练使用<span>(X)HTML/CSS/JavaScript</span>技术，掌握<span>jQuery</span>、<span>bootstrap</span>框架的使用，掌握<span>AJAX</span>及<span>DOM</span>技术，熟悉<span>Html5+CSS3</span>的布局，并能够解决浏览器<span>兼容性</span>问题</h2>
+ 				</div>
+ 				<div class="me_2" style="top:50%;left:15%;width:230px;height:110px;">
+ 					<h2>除去实践及平时学习，我还非常注重基础知识的积累和查缺补漏，利用业余时间完成了多类图书的阅读，并开始着手<span>PHP</span>、<span>JAVA</span>、<span>Node.JS</span>等后端语言的学习</h2>
+ 				</div>
+ 				<canvas id="c1" width="80" height="169" style="-border:1px solid #c3c3c3;"></canvas>
+ 				<canvas id="c2" width="340" height="173" style="-border:1px solid #c3c3c3;"></canvas>
+ 				<canvas id="c3" width="380" height="50" style="-border:1px solid #c3c3c3;"></canvas>
+ 				<canvas id="c4" width="380" height="200" style="-border:1px solid #c3c3c3;"></canvas>
+ 				<canvas id="c5" width="200" height="250" style="-border:1px solid #c3c3c3;"></canvas>
+ 				<canvas id="c6" width="300" height="150" style="-border:1px solid #c3c3c3;"></canvas>
+ 			</div>
+ 			<ul class="bubbles">
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 			</ul>
+ 		</div>
+ 		<div class="content_3" style="background-color:rgb(104, 195, 159);">
+ 			<ul class="bubbles">
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 			</ul>
+ 		</div>
+ 		<div class="content_4" style="background-color:rgb(4, 61, 93);">
+ 			<ul class="demo">
+ 				<li><a href="#"><img src="img/1.png"></a></li>
+ 				<li><a href="#"><img src="img/2.png"></a></li>
+ 				<li><a href="#"><img src="img/3.png"></a></li>
+ 				<li><a href="#"><img src="img/4.png"></a></li>
+ 			</ul>
+ 			<ul class="demo_1">
+ 				<li>
+ 				<a href="demo/dianshang/index.html">
+ 					<h2>某电商网站</h2>
+ 					<h2>CLICK ME</h2>
+ 				</a>
+ 				</li>
+ 				<li>
+ 				<a href="demo/lianxi/index.html">
+ 					<h2>某国外网站练习</h2>
+ 					<h2>CLICK ME</h2>
+ 				</a>
+ 				</li>
+ 				<li>
+ 				<a href="demo/denglu/index.html">
+ 					<h2>CSS3效果登录页面练习</h2>
+ 					<h2>CLICK ME</h2>
+ 				</a>
+ 				</li>
+ 				<li>
+ 				<a href="#">
+ 					<h2>持续更新中。。</h2>
+ 				</a>
+ 				</li>
+ 			</ul>
+ 			<ul class="bubbles">
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 			</ul>
+ 		</div>
+ 		<div class="content_5" style="background-color:rgb(60, 142, 213);">
+ 			<ul class="bubbles">
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 				<li></li>
+ 			</ul>
+ 		</div>
  	</div>
 </body> 
 </html>

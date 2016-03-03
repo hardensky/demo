@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>
+	电商
+</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" href="img/ppzs6.jpg">
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/lunbo.js"></script>
+<script>
+	window.onload=function(){
+		var oinput=document.getElementById('input');
+		var op=document.getElementById('p');
+		var oa=op.getElementsByTagName('a');
+		for(i=0;i<4;i++){
+			oa[i].onmouseover=function(){
+				var b=this.innerHTML;
+				oinput.value="请输入"+b+"名称";
+			};
+		}
+	};
+</script>
+</head> 
+<body> 
+	<div id="to_top" class="fl">
+		<a href="#"><img src="img/top.png"></a>
+	</div>
+	<div id="header">
+		<p class="sy fl">
+			<a href="#" style="width:75px;">首页</a>
+			<a href="#" style="width:100px;">找采购</a>
+			<a href="#" style="width:125px;">找汽配产品</a>
+			<a href="#" style="width:125px;">找汽配经销商</a>
+		</p>
+		<p class="jc fr">
+			<a href="#">建筑材料</a><span>|</span>
+			<a href="#">建筑材料</a><span>|</span>
+			<a href="#">建筑材料</a>
+		</p>
+	</div>
+	<div id="nav">
+		<div class="fl" style="border-right:2px solid red;">
+			<h1>新闻</h1>
+			<p><a href="#">国际</a><span>|</span><a href="#">国内</a><span>|</span><a href="#">零部件</a></p>
+			<p><a href="#">商用车</a><span>|</span><a href="#">后市场</a><span>|</span><a href="#">企业</a></p>
+		</div>
+		<div class="fl" style="border-right:2px solid red;">
+			<h1>评论</h1>
+			<p><a href="#">产业评论</a><span>|</span><a href="#">专栏</a><span>|</span><a href="#">专题</a></p>
+			<p><a href="#">商用车</a><span>|</span><a href="#">后市场</a><span>|</span><a href="#">企业</a></p>
+		</div>
+		<div class="fl" style="border-right:2px solid red;">
+			<h1>数据</h1>
+			<p><a href="#">国际</a><span>|</span><a href="#">国内</a><span>|</span><a href="#">零部件</a></p>
+			<p><a href="#">商用车</a><span>|</span><a href="#">后市场</a><span>|</span><a href="#">企业</a></p>
+		</div>
+		<div class="fl">
+			<h1>产业</h1>
+			<p><a href="#">国际</a><span>|</span><a href="#">国内</a><span>|</span><a href="#">零部件</a></p>
+			<p><a href="#">商用车</a><span>|</span><a href="#">后市场</a><span>|</span><a href="#">企业</a></p>
+		</div>
+	</div>
+	<div id="search" class="clear">
+		<a href="#"><img src="img/logo.jpg" alt="企业logo" style="margin-top:18px;"></a>
+		<div class="search_input fr">
+			<input type="text" value="请输入产品名称" style="border:2px solid red;width:385px;height:30px;" id="input">
+			<input type="button" value="搜索" style="width:70px;height:34px;background-color:red;margin-left:-7px;cursor:pointer;color:white;font-size:12px;font-weight:bold;">
+		</div>
+		<p id="p">
+			<a href="#">产品</a><span>|</span>
+			<a href="#">企业</a><span>|</span>
+			<a href="#">品牌</a><span>|</span>
+			<a href="#">资讯</a>
+		</p>
+	</div>
+	<div class="content clear">
+		<div class="main fl">
+			<div class="clear fl">
+				<div class="options fl" style="height:238px;">
+					<ul class="slider fl">
+						<li><img src="img/01.jpg"><div class="slider_bottom">李克强在座谈会频发问要求官员不要念稿</div></li>
+						<li><img src="img/02.jpg"><div>地铁无WIFI覆盖就别怪它影响运行</div></li>
+						<li><img src="img/03.jpg"><div>全球生育子女条件排名榜出炉 瑞士夺冠</div></li>
+						<li><img src="img/04.jpg"><div>《看客》美国大选特刊：奥巴马，总统难做</div></li>
+						<li><img src="img/05.jpg"><div>《看客》美国大选特刊之二：总统的“备胎”</div></li>
+					</ul>
+					<ul class="slider_control">
+						<li class="cur">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</ul>
+				</div>
+				<div class="section fr" style="height:238px;">
+					<div class="section_top gradient">
+						<span class="span_left">行业要闻</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list" style="height:208px;">
+						<h3><a href="#">ING套现撤离亚洲 友邦保险扩大版图</a></h3>
+						<p>&nbsp&nbspING（荷兰国际集团）为了履行即将到期的偿债协议，近期</p><p>频频抛售亚洲业务，引来众多... <span><a href="#">[详细]</a></span></p>
+						<ul>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">ING套现撤离亚洲 友邦保险扩大版图</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">标准普尔调降西班牙多家银行信用评级</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">花旗集团高层地震 CEO潘伟迪与COO同时宣布辞</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">德银亚太区CEO：欧美银行去杠杆化对亚洲有利</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">德瑞强调欧盟不应匆忙推银行单一监管机制</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clear fl">
+				<div class="section fl">
+					<div class="section_top gradient">
+						<span class="span_left">市场动态</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/scdt.jpg"></a>
+							<h3 class="fl"><a href="#">郑步春：日元急跌后将转为阴跌</a></h3>
+							<p class="fl">&nbsp&nbsp本周欧元连续反弹，美元小幅回</p><p class="fl">落，日元继续大贬，全球风险偏好有</p><p class="fl">所提升。欧元财长...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美国不是巴以冲突的旁观者</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">塞浦路斯与“三驾马车”达成救助协议</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">郑步春：日元急跌后将转为阴跌</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美“财政悬崖”扰动 金价有望震荡上行</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美元/日元微幅收跌 平淡交投催生获利回吐</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="section fr">
+					<div class="section_top gradient">
+						<span class="span_left">行业分析</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<h3><a href="#">微软Windows业务主管离职：被蚕食的危机</a></h3>
+						<p>&nbsp&nbsp微软今日宣布，Windows和Windows Live部门总裁史蒂芬 辛诺</p><p>夫斯基(Steven Sino... <span><a href="#">[详细]</a></span></p>
+						<ul>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">微软Windows业务主管离职：被蚕食的危机</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">永远不要低估一位CEO的权利</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">莫亚义：南非政府正积极推动农产品进入中国</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">亚洲女首富：澳大利亚将面临欧债危机式重大</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">叙利亚谴责土耳其要求北约在两国边境部署导</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美国Sunland公司坚果受污染致病 中国暂停进</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">德瑞强调欧盟不应匆忙推银行单一监管机制</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="clear fl">
+				<div class="section fl">
+					<div class="section_top gradient">
+						<span class="span_left">行业安全</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/hyaq.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟内部争议多 英国进退皆为难</a></h3>
+							<p class="fl">&nbsp&nbsp英国在欧元创始之初，就对其抱</p><p class="fl">有怀疑和抵制的态度。截至目前，英</p><p class="fl">国这种态度也未转...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟内部争议多 英国进退皆为难</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">世界艾滋病日临近 三类概念股引关注</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">希腊受援峰回路转 援助协议或下周敲定</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">俄罗斯启动阔轨联盟 泛亚铁路轨距之争升级</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">张茉楠：新兴经济体缘何偏爱增持黄金储备</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="section fr">
+					<div class="section_top gradient">
+						<span class="span_left">地方动态</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/dfdt.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟特别峰会未能就中期预算达成一致</a></h3>
+							<p class="fl">&nbsp&nbsp欧洲理事会主席范龙佩23日宣</p><p class="fl">布，为期两天的欧盟特别峰会未能就</p><p class="fl">2014年至2020年欧盟...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear fl">
+				<div class="section fl">
+					<div class="section_top gradient">
+						<span class="span_left">品牌展示</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<ul>
+							<li>
+								<a href="#" style="display:block;width:110px;margin:-5px 5px 5px 5px;float:left;">
+									<img src="img/ppzs1.jpg">
+									<span>中联重科董事长...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" style="display:block;width:110px;margin:-5px 5px 5px 5px;float:left;">
+									<img src="img/ppzs2.jpg">
+									<span>领导者不要...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" style="display:block;width:110px;margin:-5px 5px 5px 5px;float:left;">
+									<img src="img/ppzs3.jpg">
+									<span>拒绝空谈...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" style="display:block;width:110px;margin:-5px 5px 5px 5px;float:left;">
+									<img src="img/ppzs4.jpg">
+									<span>有远见的CEO们...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" style="display:block;width:110px;margin:-5px 5px 5px 5px;float:left;">
+									<img src="img/ppzs5.jpg">
+									<span>从软银创始人身...</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" style="display:block;width:110px;margin:-5px 5px 5px 5px;float:left;">
+									<img src="img/ppzs6.jpg">
+									<span>保洁CEO谈复兴...</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="section fr">
+					<div class="section_top gradient">
+						<span class="span_left">展会信息</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/dfdt.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟特别峰会未能就中期预算达成一致</a></h3>
+							<p class="fl">&nbsp&nbsp欧洲理事会主席范龙佩23日宣</p><p class="fl">布，为期两天的欧盟特别峰会未能就</p><p class="fl">2014年至2020年欧盟...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main_ad"><a href="#"><img src="img/left_center.jpg" style="width:750px;"></a></div>
+			<div class="clear fl">
+				<div class="section fl">
+					<div class="section_top gradient">
+						<span class="span_left">蜜饯果脯</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/chgg.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟特别峰会未能就中期预算达成一致</a></h3>
+							<p class="fl">&nbsp&nbsp欧洲理事会主席范龙佩23日宣</p><p class="fl">布，为期两天的欧盟特别峰会未能就</p><p class="fl">2014年至2020年欧盟...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="section fr">
+					<div class="section_top gradient">
+						<span class="span_left">炒货干果</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/chgg.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟特别峰会未能就中期预算达成一致</a></h3>
+							<p class="fl">&nbsp&nbsp欧洲理事会主席范龙佩23日宣</p><p class="fl">布，为期两天的欧盟特别峰会未能就</p><p class="fl">2014年至2020年欧盟...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear fl">
+				<div class="section fl">
+					<div class="section_top gradient">
+						<span class="span_left">糖果巧克力</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/tgqkl.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟特别峰会未能就中期预算达成一致</a></h3>
+							<p class="fl">&nbsp&nbsp欧洲理事会主席范龙佩23日宣</p><p class="fl">布，为期两天的欧盟特别峰会未能就</p><p class="fl">2014年至2020年欧盟...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="section fr">
+					<div class="section_top gradient">
+						<span class="span_left">肉松肉干</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+					</div>
+					<div class="section_list">
+						<div class="section_list_top">
+							<a href="#" class="fl" style="margin-right:10px;"><img src="img/rsrg.jpg"></a>
+							<h3 class="fl"><a href="#">欧盟特别峰会未能就中期预算达成一致</a></h3>
+							<p class="fl">&nbsp&nbsp欧洲理事会主席范龙佩23日宣</p><p class="fl">布，为期两天的欧盟特别峰会未能就</p><p class="fl">2014年至2020年欧盟...<span><a href="#">[详细]</a></span></p>
+						</div>
+						<div class="section_list_bottom">
+							<ul>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+								<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="side fr">
+			<div class="side_section" style="height:310px;">
+				<div class="section_top gradient">
+					<span class="span_left">热点视频</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+				</div>
+				<div class="section_list">
+					<ul>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp1.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp2.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp3.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp4.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="side_section" style="height:310px;">
+				<div class="section_top gradient">
+					<span class="span_left">企业风采</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+				</div>
+				<div class="section_list">
+					<div class="section_list_top">
+						<a href="#" class="fl" style="margin-right:10px;"><img src="img/tgqkl.jpg" style="width:100px;height:100px;"></a>
+						<p class="fl">&nbsp&nbsp欧洲理事会主</p><p class="fl">席范龙佩23日宣</p><p class="fl">布...<span><a href="#">[详细]</a></span></p>
+					</div>
+					<div class="section_list_bottom">
+						<ul>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="side_section" style="height:430px;">
+				<div class="section_top gradient">
+					<span class="span_left">人物专访</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+				</div>
+				<div class="section_list" style="height:400px;">
+					<div class="section_list_top" style="margin-bottom:15px;">
+						<a href="#" class="fl" style="margin-right:10px;"><img src="img/rwzf1.jpg" style="width:110px;height:110px;"></a>
+						<h3 class="fl"><a href="#">阿根廷面临内外两</a></h3>
+						<p class="fl">&nbsp&nbsp在布宜诺斯艾</p><p class="fl">利斯，罢工工人</p><p class="fl">用...<span><a href="#">[详细]</a></span></p>
+					</div>
+					<div class="section_list_top" style="margin-bottom:15px;">
+						<a href="#" class="fl" style="margin-right:10px;"><img src="img/rwzf2.jpg" style="width:110px;height:110px;"></a>
+						<h3 class="fl"><a href="#">美财政悬崖忧虑缓</a></h3>
+						<p class="fl">&nbsp&nbsp美国财政悬崖</p><p class="fl">成为年底前全球经</p><p class="fl">济的...<span><a href="#">[详细]</a></span></p>
+					</div>
+					<div class="section_list_top" style="margin-bottom:15px;">
+						<a href="#" class="fl" style="margin-right:10px;"><img src="img/rwzf3.jpg" style="width:110px;height:110px;"></a>
+						<h3 class="fl"><a href="#">埃及总统被反对派</a></h3>
+						<p class="fl">&nbsp&nbsp综合国外媒体</p><p class="fl">报道，埃及总统穆</p><p class="fl">尔西...<span><a href="#">[详细]</a></span></p>
+					</div>
+				</div>
+			</div>
+			<div class="side_section" style="height:290px;">
+				<div class="section_top gradient">
+					<span class="span_left">地方品牌</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+				</div>
+				<div class="section_list" style="height:260px;">
+					<div class="section_list_top">
+						<a href="#" class="fl" style="margin-right:10px;"><img src="img/dfpp.jpg" style="width:100px;height:100px;"></a>
+						<p class="fl">&nbsp&nbsp欧洲理事会主</p><p class="fl">席范龙佩23日宣</p><p class="fl">布...<span><a href="#">[详细]</a></span></p>
+					</div>
+					<div class="section_list_bottom">
+						<ul>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+							<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="side_section" style="height:220px;">
+				<div class="section_top gradient">
+					<span class="span_left">招商加盟</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+				</div>
+				<div class="section_list" style="height:190px;">
+					<ul>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">美法院判阿偿13亿债务</a></li>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟将助塞浦路斯展开宏观经济调控</a></li>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧洲三大股指23日全线上涨</a></li>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">法国巴黎南郊发生枪击案造成1人死亡</a></li>
+						<li><img height="5px" width="5px" src="img/dian.png"> <a href="#">欧盟特别峰会未能就中期预算达成一致</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="side_section" style="height:308px;">
+				<div class="section_top gradient">
+					<span class="span_left">新品播报</span>
+						<span class="span_right fr"><a href="#">更多>></a></span>
+				</div>
+				<div class="section_list">
+					<ul>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp1.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp2.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp3.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" style="display:block;width:110px;margin:-7px 2px 2px 0;float:left;">
+								<img src="img/rdsp4.jpg">
+								<span>德国会议通过...</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="section_top gradient">
+			<span class="span_left" style="font-size:24px;">友情链接</span>
+		</div>
+		<div class="section_list" style="height:68px;">
+			<ul>
+				<li>
+					<a href="#">新华网食品频道</a>
+				</li>
+				<li>
+					<a href="#">东南网食品频道</a>
+				</li>
+				<li>
+					<a href="#">人民网食品频道</a>
+				</li>
+				<li>
+					<a href="#">中国食品网</a>
+				</li>
+				<li>
+					<a href="#">中经网食品频道</a>
+				</li>
+				<li>
+					<a href="#">中国网食品频道</a>
+				</li>
+				<li>
+					<a href="#">CNTV美食台</a>
+				</li>
+				<li>
+					<a href="#">中华网食品频道</a>
+				</li>
+				<li>
+					<a href="#">中国日报网食品频道</a>
+				</li>
+				<li>
+					<a href="#">中青网食品频道</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+</body> 
+</html>

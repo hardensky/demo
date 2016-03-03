@@ -1,0 +1,105 @@
+/*全局布置*/
+#header{width:1000px;height:35px;margin:0 auto;background-color:#FF3232;border-radius:5px;overflow:hidden;}
+#nav{width:1000px;height:65px;margin:10px auto;background-color:#C0C0C0;border-radius:5px;}
+#search{width:998px;height:88px;margin:10px auto;border-radius:5px;border:1px solid #C0C0C0;}
+.content{width:1000px;height:1930px;margin:10px auto;}
+.main{width:760px;}
+.options{width:368px;height:310px;border:1px solid #C0C0C0;margin:0 10px 10px 0;border-radius:5px;}
+.section{width:368px;height:308px;border:1px solid #C0C0C0;margin:0 10px 10px 0;border-radius:5px;}
+.section_top{width:100%;height:29px;border-bottom:1px solid #C0C0C0;border-radius:3px 3px 0 0;}
+.section_list{width:100%;height:278px;padding:10px;}
+.main_ad{margin-bottom:10px;border-radius:5px;width:750px;overflow:hidden;}
+.side{width:240px;}
+.side_section{width:238px;height:98px;border:1px solid #C0C0C0;margin-bottom:10px;border-radius:5px;}
+#footer{width:998px;height:98px;border:1px solid #C0C0C0;margin:10px auto;border-radius:5px;}
+#to_top{position:fixed;top:800px;left:1650px;}
+
+
+/*header部分*/
+#header p{line-height:35px}
+#header .sy{font-size:14px;font-weight:bold;}
+#header .sy a{color:#FFFFFF;display:inline-block;height:35px;text-align:center;}
+#header .sy a:hover{background-color:#A81E1E;}
+#header .jc{font-size:12px;font-weight:normal;}
+#header .jc a{color:#f6e5b7;margin:8px;}
+#header .jc span{color:#FFFFFF;}
+#header .jc a:hover{color:#FFFFFF;}
+
+
+/*nav部分*/
+#nav .fl{width:248px;height:65px;}
+#nav h1{font-size:24px;font-weight:bold;line-height:65px;float:left;color:red;margin-left:10px;text-shadow:5px 5px 5px #A81E1E;}
+#nav p{font-size:12px;float:right;line-height:20px;margin:5px 10px;}
+#nav a{color:#000000;margin:10px;}
+#nav a:hover{color:red;text-decoration:underline;z-index:10000;}
+
+
+/*search部分*/
+#search p{margin-top:-10px;margin-right:265px;float:right;}
+#search a{color:#000000;margin:10px;}
+#search a:hover{color:red;}
+#search input{margin-top:40px;}
+#search .search_input{height:34px;margin-top:-30px;margin-right:10px;}
+
+
+/*content部分*/
+.span_left{font-size:14px;font-weight:bold;line-height:30px;color:red;text-shadow:3px 3px 3px #A81E1E;margin-left:10px;}
+.span_right{font-size:14px;font-weight:bold;line-height:30px;color:red;text-shadow:3px 3px 3px #A81E1E;margin-right:10px;}
+.span_right a{color:red;}
+.span_right a:hover{text-decoration:underline;}
+.section_list h3{text-align:center;}
+.section_list h3 a{color:red;}
+.section_list h3 a:hover{text-decoration:underline;}
+.section_list li a,.section_list p a{color:black;}
+.section_list li img{display:block;margin-top:8px;float:left;margin-right:5px;}
+.section_list li a:hover,.section_list p a:hover{color:red;text-decoration:underline;}
+.section_list li,.section_list p,.section_list h3{line-height:25px;}
+.section_list_top{width:100%;height:120px;}
+.section_list_bottom{width:100%;margin-top:10px;}
+
+
+/*options部分*/
+.options{
+	position:relative;
+	overflow:hidden;
+}
+.slider_control{
+	position:absolute;
+}
+.slider_control li{
+	float:left;
+	font-size:16px;
+	color:white;
+	text-align:center;
+	cursor:pointer;
+	margin:8px;
+	display:block;
+	width:20px;
+	height:20px;
+	background-color:grey;
+}
+.cur{
+	background-color:red !important;
+}
+.slider{
+	width:2000px;
+}
+.slider li{
+	float:left;
+}
+.slider_bottom{
+	width:372px;
+	height:30px;
+	text-align:center;
+	color:white;
+	font-size:14px;
+	margin-top:-30px;
+	background-color:grey;
+	line-height:30px;
+	opacity:0.8;
+}
+
+
+
+/*footer部分*/
+#footer .section_list li{float:left;margin:0 10px;}
