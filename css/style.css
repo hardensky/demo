@@ -225,6 +225,16 @@
 
 
 
+/* content_3 布置 */
+.skill{width:1000px;height:150px;margin:0 auto;position:relative;z-index:999;top:5%;}
+.skill h2{font-size:18px;color:#FFFFFF;line-height:40px;margin-top:5px;display:none;}
+.skill_1{width:1016px;height:500px;top:10%;margin:0 auto;position:relative;z-index:999;display:none;}
+.skill_1 li{float:left;width:200px;height:200px;margin:25px;border:1px solid #FFFFFF;display:none;background-color:rgba(109, 181, 238, 0.69);}
+.skill_1 h2{font-size:22px;color:#FFFFFF;line-height:20px;text-align:center;margin-top:15px;display:none;}
+.circle{margin-left:40px;margin-top:20px;}
+
+
+
 
 /* content_4 布置 */
 .demo{height:220px;width:1290px;position:relative;margin:0 auto;top:20%;z-index:1000;overflow:hidden;}
@@ -232,3 +242,11 @@
 .demo_1{height:220px;width:1290px;position:relative;margin:0 auto;top:20%;z-index:1000;display:none;}
 .demo_1 li{display:block;width:300px;height:200px;margin:10px;float:left;background-color:rgb(60, 142, 213);opacity:0.7;visibility:hidden;}
 .demo_1 h2{font-size:20px;color:#FFFFFF;text-align:center;margin-top:5px;margin-top:50px;}
+
+
+
+/* content_5 布置 */
+.contact{width:1500px;height:300px;position:relative;z-index:999;top:15%;margin:0 auto;display:none;}
+.contact li{font-size:18px;color:#FFFFFF;line-height:40px;display:none;}
+.end{width:1000px;height:300px;position:relative;z-index:999;top:20%;margin:0 auto;}
+.end h1{font-size:120px;text-align:center;color:#FFFFFF;margin-top:50px;}
