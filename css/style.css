@@ -202,6 +202,7 @@
 /* content_1 布置 */
 .pic{width:150px;height:200px;border:5px solid #FFFFFF;position:relative;top:150px;border-radius:50px;overflow:hidden;display:none;margin:0 auto;display:none;}
 .pic li{position:absolute;cursor:pointer;}
+.img_border{width:150px;height:200px;border-radius:50px;}
 .name{width:1000px;height:150px;margin:0 auto;position:relative;top:-170px;color:#FFFFFF;display:none;}
 .introduce{position:relative;margin:0 auto;width:1000px;height:200px;top:-180px;display:none;}
 .introduce_line{width:0px;height:3px;background-color:#FFFFFF;margin:0 auto;display:none;}
